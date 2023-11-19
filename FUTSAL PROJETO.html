@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulário</title>
+    <link rel="stylesheet" href="Style.css">
+  </head>
+  <body>
+    <h1>Formulário</h1>
+    <hr />
+    <form action="" method="post">
+      <label for="modalidade">Modalidade:</label>
+      <select name="modalidade" id="modalidade">
+        <option value="futebol">Futebol</option>
+        <option value="basquete">Basquete</option>
+        <option value="voleibol">Voleibol</option>
+      </select>
+      <br />
+      <hr />
+      <div
+        style="
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          text-align: center;
+        "
+      >
+        <div style="display: flex; flex-direction: column">
+          <label for="equipe_casa">Equipe da Casa:</label>
+          <input
+            type="text"
+            name="equipe_casa"
+            placeholder="Nome da equipe"
+            id="equipe_casa"
+          />
+        </div>
+        <div style="display: flex; flex-direction: column">
+          <label for="equipe_visitante">Equipe Visitante:</label>
+          <input
+            type="text"
+            name="equipe_visitante"
+            placeholder="Nome da equipe"
+            id="equipe_visitante"
+          />
+        </div>
+      </div>
+      <br />
+      <hr />
+      <div
+        style="
+          display: flex;
+          width: auto;
+          flex-direction: row;
+          justify-content: space-evenly;
+          text-align: center;
+        "
+      >
+        <div>
+            <label for="jogadores_casa">Jogadores equipe da casa:</label><br />
+            <hr>
+            <div style="display: flex; ">
+                <div style="display: flex; flex-direction: column;">
+                    <label for="jogadores_casa_nome">Nome:</label><br />
+                    <input type="text" name="jog1" id="jog1" placeholder="Jogador 1"/>
+                    <input type="text" name="jog2" id="jog2" placeholder="Jogador 2"/>
+                    <input type="text" name="jog3" id="jog3" placeholder="Jogador 3"/>
+                    <input type="text" name="jog4" id="jog4" placeholder="Jogador 4"/>
+                    <input type="text" name="jog5" id="jog5" placeholder="Jogador 5"/>
+                </div>
+                <div style="display: flex; flex-direction: column; width: 55px;">
+                    <label for="jogadores_casa_num">Número:</label><br />
+                    <input type="text" name="num1" id="num1" placeholder="Num1"/>
+                    <input type="text" name="num2" id="num2" placeholder="Num2"/>
+                    <input type="text" name="num3" id="num3" placeholder="Num3"/>
+                    <input type="text" name="num4" id="num4" placeholder="Num4"/>
+                    <input type="text" name="num5" id="num5" placeholder="Num5"/>
+                    
+                </div>
+
+            </div>
+        </div>
+        <div">
+          <label for="jogadores_visitante">Jogadores vistante:</label><br />
+          <hr>
+          <div style="display: flex; ">
+            <div style="display: flex; flex-direction: column;">
+                <label for="jogadores_casa_nome">Nome:</label><br />
+                <input type="text" name="jog1" id="jog1" placeholder="Jogador 1"/>
+                <input type="text" name="jog2" id="jog2" placeholder="Jogador 2"/>
+                <input type="text" name="jog3" id="jog3" placeholder="Jogador 3"/>
+                <input type="text" name="jog4" id="jog4" placeholder="Jogador 4"/>
+                <input type="text" name="jog5" id="jog5" placeholder="Jogador 5"/>
+            </div>
+            <div style="display: flex; flex-direction: column; width: 55px;">
+                <label for="jogadores_casa_num">Número:</label><br />
+                <input type="text" name="num1" id="num1" placeholder="Num1"/>
+                <input type="text" name="num2" id="num2" placeholder="Num2"/>
+                <input type="text" name="num3" id="num3" placeholder="Num3"/>
+                <input type="text" name="num4" id="num4" placeholder="Num4"/>
+                <input type="text" name="num5" id="num5" placeholder="Num5"/>
+                
+            </div>
+
+        </div>
+        </div>
+      </div>
+      <br />
+      <hr />
+      <div
+        style="
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+        "
+      >
+        <div style="display: flex; flex-direction: column">
+          <label for="gols">Gols:</label>
+          <input type="text" name="gols" id="gols" />
+        </div>
+        <div style="display: flex; flex-direction: column">
+          <label for="cartoes">Cartões:</label>
+          <input type="text" name="cartoes" id="cartoes" />
+        </div>
+      </div>
+      <br />
+      <hr />
+      <div
+        style="
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          margin-bottom: 25px;
+        "
+      >
+        <div style="display: flex; flex-direction: column">
+          <label for="Data">Data:</label>
+          <input
+            type="datetime-local"
+            id="data"
+            name="data"
+            value="2023-19-11T19:30"
+            min="2023-19-11T00:00"
+          />
+        </div>
+        <div style="display: flex; flex-direction: column">
+          <label for="Local">Local:</label>
+          <input type="text" name="local" id="local" />
+        </div>
+      </div>
+      <input type="submit" value="Adicionar Jogo" />
+    </form>
+  </body>
+</html>

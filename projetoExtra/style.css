@@ -1,0 +1,118 @@
+.HOME {
+    background-color: #2f2f2f;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .HOME .div {
+    background-color: #2f2f2f;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+  }
+  
+  .HOME .overlap {
+    height: 126px;
+    top: 0;
+    background-color: #b9b9b9;
+    position: absolute;
+    width: 1440px;
+    left: 0;
+  }
+  
+  .HOME .dbc-cb-b {
+    position: absolute;
+    width: 90px;
+    height: 106px;
+    top: 10px;
+    left: 35px;
+    object-fit: cover;
+  }
+  
+  .HOME .text-wrapper {
+    position: absolute;
+    width: 855px;
+    height: 69px;
+    top: 28px;
+    left: 293px;
+    font-family: "Inria Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .HOME .overlap-group {
+    height: 66px;
+    top: 958px;
+    background-color: #d9d9d9;
+    position: absolute;
+    width: 1440px;
+    left: 0;
+  }
+  
+  .HOME .desenvolvido-como {
+    position: absolute;
+    width: 837px;
+    height: 41px;
+    top: 11px;
+    left: 307px;
+    font-family: "Inria Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .HOME .rectangle {
+    left: 629px;
+    position: absolute;
+    width: 183px;
+    height: 182px;
+    top: 220px;
+    background-color: #d9d9d9;
+    border-radius: 32px;
+  }
+  
+  .HOME .rectangle-2 {
+    left: 1120px;
+    position: absolute;
+    width: 183px;
+    height: 182px;
+    top: 220px;
+    background-color: #d9d9d9;
+    border-radius: 32px;
+  }
+  
+  .HOME .bt {
+    position: absolute;
+    width: 183px;
+    height: 182px;
+    top: 220px;
+    left: 138px;
+    background-color: #d9d9d9;
+    border-radius: 32px;
+  }
+  
+  .HOME .text-wrapper-2 {
+    position: absolute;
+    width: 134px;
+    height: 135px;
+    top: 14px;
+    left: 21px;
+    font-family: "Inria Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 128px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
